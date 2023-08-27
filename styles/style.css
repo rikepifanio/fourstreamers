@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
+
+:root{
+    --cor-primaria: #3066a3;
+    --cor-secundaria: #00a2ff;
+    --cor-terciaria: #ffffff;
+    --cor-fonte: #000000;
+    --cor-hover: #183d66;
+
+    --fonte-primaria: 'Ubuntu', sans-serif;;
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    background-color: var(--cor-secundaria);
+    width: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--cor-primaria);
+}
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.cabecalho_menu{
+    display: flex;
+    gap: 70px;
+}
+.cabecalho_menu_link{
+    font-family: var(--fonte-secundaria);
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+.apresentacao__imagem{
+    width: 5%;
+}
+.apresentacao_imagem_leticia{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.apresentacao{
+    padding: 2% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao_conteudo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.apresentacao_conteudo_titulo{
+    margin-top: 150px;
+    font-size: 95px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte);
+}
+.apresentacao_conteudo_texto{
+    font-size: 2rem;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-fonte);
+}
+.apresentacao_conteudo_titulo_2{
+    margin-top: 25rem;
+    font-size: 5rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte);
+}
+.integrantes{
+    display: flex;
+    justify-content: space-between;
+}
+.infos_integrantes{
+    font-family: var(--fonte-secundaria);
+    font-size: 2rem;
+    color: var(--cor-fonte);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    gap: 32px;
+}
+.apresentacao__links__navegacao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-secundaria);
+    width: 200%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+}
+.apresentacao__links__link:hover{
+    background-color: var(--cor-hover);
+}
+.titulo_forte{
+    color: var(--cor-terciaria);
+}
+.rodape{
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 25px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
