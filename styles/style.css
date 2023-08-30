@@ -58,7 +58,7 @@ body{
     width: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 .apresentacao{
     padding: 2% 2%;
