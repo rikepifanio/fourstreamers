@@ -59,6 +59,11 @@ body{
     display: flex;
     flex-direction: row;
 }
+.apresentacao_imagem_joao{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+}
 .apresentacao{
     padding: 2% 2%;
     display: flex;
