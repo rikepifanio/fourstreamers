@@ -57,12 +57,7 @@ body{
 .apresentacao_imagem_leticia{
     width: 400px;
     display: flex;
-    flex-direction: row;
-}
-.apresentacao_imagem_joao{
-    width: 400px;
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .apresentacao{
     padding: 2% 2%;
