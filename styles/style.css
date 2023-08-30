@@ -58,7 +58,6 @@ body{
     width: 100px;
     display: flex;
     flex-direction: row;
-    padding: 100px;
 }
 .apresentacao{
     padding: 2% 2%;
