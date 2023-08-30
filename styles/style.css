@@ -54,16 +54,28 @@ body{
 .apresentacao__imagem{
     width: 5%;
 }
-.apresentacao_imagem_leticia{
-    width: 400px;
-    display: flex;
-    flex-direction: column;
+.apresentacao_tabela_leticia{
+    width: 350px;
+    display: inline-block;
+    border: var(--cor-primaria);
 }
-.apresentacao_imagem_joao{
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 100px;
+.apresentacao_tabela_joao{
+    width: 350px;
+    display: inline-block;
+    border: var(--cor-primaria);
+    padding-left: 123px;
+}
+.apresentacao_tabela_bueno{
+    width: 350px;
+    display: inline-block;
+    border: var(--cor-primaria);
+    padding-left: 123px;
+}
+.apresentacao_tabela_ricardo{
+    width: 350px;
+    display: inline-block;
+    border: var(--cor-primaria);
+    padding-left: 123px;
 }
 .apresentacao{
     padding: 2% 2%;
