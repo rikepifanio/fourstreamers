@@ -63,19 +63,19 @@ body{
     width: 350px;
     display: inline-block;
     border: var(--cor-primaria);
-    padding-left: 123px;
+    padding-left: 7%;
 }
 .apresentacao_tabela_bueno{
     width: 350px;
     display: inline-block;
     border: var(--cor-primaria);
-    padding-left: 123px;
+    padding-left: 7%;
 }
 .apresentacao_tabela_ricardo{
     width: 350px;
     display: inline-block;
     border: var(--cor-primaria);
-    padding-left: 123px;
+    padding-left: 7%;
 }
 .apresentacao{
     padding: 2% 2%;
