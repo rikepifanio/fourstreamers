@@ -25,7 +25,7 @@
 }
 body{
     box-sizing: border-box;
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
 }
 .cabecalho{
     display: flex;
@@ -33,7 +33,7 @@ body{
     justify-content: space-around;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
-    padding-left: 100px;
+    padding-left: 30px;
     padding-right: 100px;
     text-align: center;
     font-family: var(--fonte-secundaria);
@@ -55,30 +55,99 @@ body{
     width: 5%;
 }
 .apresentacao_tabela_leticia{
-    width: 350px;
+    width: 250px;
     display: inline-block;
-    border: var(--cor-primaria);
+    border: var(--cor-secundaria);
+    border-radius: 5%;
+    border-style: solid;
+}
+.apresentacao_tabela_leticia_nome{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-secundaria);
+    width: 75%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 15px 5px;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-secundaria);
 }
 .apresentacao_tabela_joao{
-    width: 350px;
+    width: 250px;
     display: inline-block;
-    border: var(--cor-primaria);
-    padding-left: 7%;
+    border: var(--cor-secundaria);
+    border-radius: 5%;
+    border-style: solid;
+}
+.apresentacao_tabela_joao_nome{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-secundaria);
+    width: 75%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 15px 5px;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-secundaria);
 }
 .apresentacao_tabela_bueno{
-    width: 350px;
+    width: 250px;
     display: inline-block;
-    border: var(--cor-primaria);
-    padding-left: 7%;
+    border: var(--cor-secundaria);
+    border-radius: 5%;
+    border-style: solid;
+}
+.apresentacao_tabela_bueno_nome{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-secundaria);
+    width: 75%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 15px 5px;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-secundaria);
 }
 .apresentacao_tabela_ricardo{
-    width: 350px;
+    width: 250px;
     display: inline-block;
-    border: var(--cor-primaria);
-    padding-left: 7%;
+    border: var(--cor-secundaria);
+    border-radius: 5%;
+    border-style: solid;
+}
+.apresentacao_tabela_ricardo_nome{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid var(--cor-secundaria);
+    width: 75%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 15px 5px;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-secundaria);
 }
 .apresentacao{
-    padding: 2% 2%;
+    padding: 1% 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,28 +156,35 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 150px;
+    gap: 38px;
+    background-color: var(--cor-primaria);
 }
 .apresentacao_conteudo_titulo{
-    margin-top: 150px;
+    margin-top: 50px;
+    margin-left: 150px;
     font-size: 95px;
     font-family: var(--fonte-primaria);
     color: var(--cor-fonte);
 }
 .apresentacao_conteudo_texto{
     font-size: 2rem;
+    margin-left: 8.5%;
+    margin-right: 52.75%;
     font-family: var(--fonte-secundaria);
     color: var(--cor-fonte);
+    text-align: justify;
 }
 .apresentacao_conteudo_titulo_2{
-    margin-top: 25rem;
-    font-size: 5rem;
+    margin-top: 100%;
+    margin-left: 150px;
+    font-size: 70px;
     font-family: var(--fonte-primaria);
     color: var(--cor-fonte);
 }
 .integrantes{
     display: flex;
     justify-content: space-between;
+    margin-right: 50px;
 }
 .infos_integrantes{
     font-family: var(--fonte-secundaria);
@@ -131,15 +207,16 @@ body{
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-secundaria);
-    width: 200%;
+    width: 100%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 21.5px 0px;
     text-decoration: none;
     color: var(--cor-terciaria);
     font-family: var(--fonte-primaria);
+    background-color: var(--cor-secundaria);
 }
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
