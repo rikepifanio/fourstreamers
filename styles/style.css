@@ -102,37 +102,36 @@ body{
 /* Área dos Integrantes */
 
 .apresentacao_tabela_leticia{
-    width: 200px;
+    width: 250px;
     border: var(--cor-secundaria);
     border-radius: 5%;
     border-style: solid;
 }
 .apresentacao_tabela_joao{
-    width: 200px;
+    width: 250px;
     border: var(--cor-secundaria);
     border-radius: 5%;
     border-style: solid;
 }
 .apresentacao_tabela_bueno{
-    width: 200px;
+    width: 250px;
     border: var(--cor-secundaria);
     border-radius: 5%;
     border-style: solid;
 }
 .apresentacao_tabela_ricardo{
-    width: 200px;
+    width: 250px;
     border: var(--cor-secundaria);
     border-radius: 5%;
     border-style: solid;
 }
 .integrantes{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 50px;
 }
 .apresentacao__links{
     display: inline-block;
-    flex-direction: row;
-    align-items: center;
     margin-bottom: 50px;
     background-color: var(--cor-secundaria);
     border-radius: 8px;
@@ -143,7 +142,7 @@ body{
 .apresentacao__links__twitter{
     display: inline-block;
     margin-right: 15px;
-    margin-left: 20px;
+    margin-left: 45px;
 }
 .apresentacao__links__instagram{
     display: inline-block;
