@@ -41,11 +41,12 @@ body{
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     padding-left: 30px;
-    padding-right: 100px;
+    padding-top: 25px;
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
+    gap: 20%;
 }
 .cabecalho_menu{
     display: flex;
@@ -62,7 +63,7 @@ body{
 /* Fim do CSS do Cabeçalho */
 
 .apresentacao__imagem{
-    width: 5%;
+    width: 15%;
 }
 .apresentacao{
     padding: 1% 5%;
