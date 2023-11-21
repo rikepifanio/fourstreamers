@@ -92,14 +92,50 @@ body{
 }
 .apresentacao_conteudo_texto{
     font-size: 2rem;
-    margin-left: 8.5%;
+    margin-left: 9%;
     margin-right: 52.75%;
     font-family: var(--fonte-secundaria);
     color: var(--cor-fonte);
     text-align: justify;
 }
+
+.titulo_whats{
+    font-size: 3rem;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 5%;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-fonte);
+    text-align: justify;
+}
+
+.botao_whats_apresentacao{
+    background-color: #24e72a;
+    color: var(--cor-fonte);
+    margin-left: 38%;
+    margin-right: 38%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botao_whats_botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botao_whats_texto{
+    font-size: 25px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
 .apresentacao_conteudo_titulo_2{
-    margin-top: 25%;
     margin-left: 150px;
     font-size: 70px;
     font-family: var(--fonte-primaria);
@@ -114,7 +150,7 @@ body{
     border-radius: 5%;
     border-style: solid;
 }
-.apresentacao_tabela_joao{
+.apresentacao_tabela_neo{
     width: 250px;
     border: var(--cor-secundaria);
     border-radius: 5%;
